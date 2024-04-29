@@ -1,0 +1,336 @@
+/*Side menu/start*/
+.side-menu {
+    list-style-type: none;
+    margin-top: 60px;
+}
+
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100px;
+}
+
+/*Side menu/End*/
+
+/*Black & white Button*/
+.btn-side {
+    margin-top: 25px;
+    width: 200px;
+}
+
+.btn-text {
+    margin: 0px;
+}
+
+.btn-icn {
+    margin: 0px;
+    text-align: left;
+}
+
+.btn-item {
+    text-align: left;
+}
+
+.btn-bw {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    font-weight: bolder;
+    display: inline-block;
+}
+
+/*Hover button*/
+.btn-bw:hover {
+    background-color: black;
+    color: white;
+}
+
+/*Active button*/
+.active {
+    background-color: black;
+    color: white;
+}
+
+/*Black & white Button/End*/
+
+/*Block*/
+.block-txt-lg {
+    font-size: x-large;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.block-txt-m {
+    font-size: medium;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.block-txt-l {
+    font-size: large;
+    font-weight: bold;
+}
+
+.pd-2 {
+    padding: 5px;
+}
+
+.block-txt-s {
+    font-size: small;
+    font-weight: bold;
+}
+
+.sp-line {
+    display: block;
+}
+
+.bd-black {
+    border: 2px black solid;
+}
+
+/*block box*/
+.box {
+    margin: 10px;
+    margin-top: 20px;
+    height: max-content;
+    border: 1px solid black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+/*Card body*/
+.settng {
+    width: fit-content;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.cm-0 {
+    margin: 0px;
+    align-items: center;
+}
+
+.cm-2 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/*Radio Block*/
+.radio-block {
+    width: fit-content;
+    margin: 40px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    display: inline-block;
+}
+
+.rd-txt {
+    font-size: medium;
+    font-weight: bold;
+}
+
+.rd-btn {
+    margin-left: 5px;
+    accent-color: black;
+}
+
+
+/*Table*/
+table {
+    margin: 20px;
+    border-collapse: collapse;
+    background-color: #f8f4f4;
+}
+
+table tr td,
+th {
+    padding: 5px;
+    text-align: right;
+    width: 120px;
+    font-size: large;
+    font-size: medium;
+    font-weight: 400;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+th {
+    background: rgb(217, 217, 217);
+}
+
+table tr:hover {
+    background: #c9c9c9;
+}
+
+.tb-title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+/*Logo setting*/
+#nav_logo {
+    height: 50px;
+    margin-left: 100px;
+}
+
+/*Login*/
+.login-body {
+    margin-top: 8%;
+    padding: 30px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.img {
+    margin: 10px;
+    margin-top: 1px;
+    width: max-content;
+}
+
+.login-txt {
+    font-size: large;
+    font-weight: bold;
+}
+
+.log-header {
+    padding-top: 20px;
+    margin: 5px;
+    text-align: center;
+}
+
+.log-btn {
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+#login-logo {
+    height: 50px;
+}
+
+/*Chat UI*/
+.chat-left-ui {
+    border: 1px solid black;
+    height: 500px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.brd-black {
+    border: 1px solid black;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.chat-viewer {
+    position: relative;
+    height: 350px;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: inline-flexbox;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.chat-txt {
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    width: 300px;
+}
+
+.user-side {
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.seller-side {
+    text-align: right;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+.s-box {
+    margin-left: 250px;
+    width: max-content;
+}
+
+.u-box {
+    position: static;
+    right: 0px;
+    width: max-content;
+}
+
+.s-line-1 {
+    margin: 0px;
+    width: max-content;
+}
+
+.s-line-2 {
+    margin: 0px;
+    margin-left: 20px;
+    max-width: 200px;
+    width: max-content;
+}
+
+.u-line-1 {
+    margin: 0px;
+    width: max-content;
+}
+
+.u-line-2 {
+    margin: 0px;
+    width: max-content;
+}
+
+#bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.r-data {
+    padding: 5px;
+}
+
+.main-block {
+    margin-top: 20px;
+}
+.link-bar{
+    margin-bottom: 30px;
+}
+/*Test*/
+
+.chat-r {
+    display: flex;
+}
+
+.chat-r .sp {
+    flex: 1;
+}
+
+.chat-l {
+    display: flex;
+}
+
+.chat-l .sp {
+    flex: 1;
+}

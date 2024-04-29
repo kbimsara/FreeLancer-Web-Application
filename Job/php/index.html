@@ -1,0 +1,47 @@
+<html>
+<head>
+	<title>ACCOSA PG - Test Merchant - PHP</title>
+</head>
+<body topmargin="0" leftmargin="0">
+
+<br />&nbsp;<br />
+
+<center>
+	<h3>ACCOSA PG - Test Merchant - PHP</h3>
+	<br />&nbsp;<br />
+	<form name="pgtest" method="post" action="pgrequest.php">	
+		<table>
+			<tr>
+				<td>Amount:</td>
+				<td><input type="text" name="amount" value="30000"/>(implied decimals)</td>
+			</tr>
+			<tr>
+				<td>Currency</td>
+				<td><input type="text" name="currency_code" value="356"/></td>
+			</tr>
+			<tr>
+				<td>Merchant Reference No:</td>
+				<td><input type="text" name="merchant_reference_no" value="AX143565"></td>
+			</tr>
+			<tr>
+				<td>Order description:</td>
+				<td><INPUT TYPE="text" name="order_desc" value="One pizza"></td>
+			</tr>
+			<tr>
+				<td align="center" colspan="2">
+				<input type="radio" name="perform" value="initiatePaymentCapture#sale" checked/> Sale
+				&nbsp;&nbsp;&nbsp;
+				<input type="radio" name="perform" value="initiatePaymentCapture#preauth"/> Pre Auth
+				</td>
+			</tr>
+			<tr>
+				<td align="center" colspan="2">
+				<input type="submit" value=" Pay Now"/>
+				</td>
+			</tr>
+		</table>
+	</form>		
+</center>
+
+</body>
+</html>
